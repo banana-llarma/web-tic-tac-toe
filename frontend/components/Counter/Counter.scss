@@ -1,0 +1,23 @@
+.counter {
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px black;
+  background-color: #ccc;
+  display: inline-block;
+  padding: 1.4em 1em;
+
+  &__number {
+    background-color: inherit;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  &__button {
+    background-color: #555;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: white;
+    border: none
+  }
+}
+
+
